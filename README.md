@@ -18,7 +18,7 @@ Part of the code was taken from Laravel default view and Yii Framework Requireme
 
 From Laravel 5 to Laravel 9.x below extensions will be checked
 
-- PHP
+- PHP Version
 - OpenSSL PHP Extension
 - PDO PHP Extension
 - Mbstring PHP Extension
