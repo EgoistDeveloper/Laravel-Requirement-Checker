@@ -300,6 +300,11 @@ $selectOptionsHtml = implode('', array_map(function ($version) use ($selectedVer
             color: #999;
         }
 
+        select {
+            padding: 10px 50px;
+            font-weight: 700;
+        }
+
         .wrapper {
             width: 300px;
             margin: 50px auto;
@@ -342,6 +347,21 @@ $selectOptionsHtml = implode('', array_map(function ($version) use ($selectedVer
 
         .icon-remove {
             color: #c0392b;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                margin: 0;
+                font-size: 16px;
+                font-family: 'Lato', sans-serif;
+                text-align: center;
+                color: #999;
+                background-color: #171923;
+            }
+
+            select {
+                background-color: #ababab;
+            }
         }
     </style>
 </head>
