@@ -2,7 +2,13 @@
 
 Standalone script to check if a server meets the requirements for running the Laravel framework.
 
-# Use
+## Preview
+
+Supports automatic Dark/Light mode (*depending on the browser*)
+
+![preview.png](./preview.png)
+
+## Use
 
 Place the check.php file into the web server and open it with your browser.
 
@@ -22,10 +28,3 @@ From Laravel 5 to Laravel 9.x below extensions will be checked
 - JSON PHP Extension
 - BCmath PHP Extension
 - PHP Bolt Extension
-
-
-## Preview
-
-Supports automatic Dark/Light mode (*depending on the browser*)
-
-![preview.png](./preview.png)
