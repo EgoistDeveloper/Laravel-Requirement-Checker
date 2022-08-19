@@ -202,7 +202,7 @@ $versionRequirementList = [
         'bolt' => true
     ],
     '9.0' => [
-        'php' => '9.0.2',
+        'php' => '8.0.2',
         'mcrypt' => false,
         'openssl' => true,
         'pdo' => true,
